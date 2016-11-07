@@ -1,0 +1,3 @@
+DirectoryIndex index.php
+#ErrorDocument 404 http://www.tct.es/tctnew/tctw/notfound404.php
+ErrorDocument 404 http://localhost/tctw/notfound404.php

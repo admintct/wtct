@@ -1,0 +1,324 @@
+**** 21/04/2016
+- Cambios en los textos de recuperación de contraseñas.
+**** 20/04/2016 ****
+- Cambios en el acceso a partidas de importación para usuarios de TCT.
+**** 30/03/2016 ****
+- Modificaciones en la introducción de cotizaciones.
+**** 30/03/2016 ****
+- Pantalla para petición de cotizaciones y su envío por email.
+**** 17/03/2016 ****
+- Muchos cambios en los filtros de seguridad de acceso para permitir a los agentes ver los documentos asociados a una partida o descargarlos.
+- Los agentes no pueden solicitar certificados en las partidas de exportación.
+- En las partidas de exportación se muestra la fecha de entrada al almecén y la fecha de recogida en caso de que se indique.
+- Cambios en la carga de datos para incluir los códigos de los agentes de las agrupaciones y del RO de exportación.
+**** 16/03/2016 ****
+- Cambios en la gestión de agentes.
+- Los documentos "ALBARAN TRANSPORTE" son visibles en el momento en que se califican tanto en las partidas de importación como en las partida de exportación. El atributo se da de alta en SISCON.
+**** 14/03/2016 ****
+- Cambios internos en la gestión de bookings.
+- Cambios en la estructura de algunas tablas.
+- Cambios en cargas de datos.
+**** 11/03/2016 ****
+- Cambios en las cargas de datos.
+**** 10/03/2016 ****
+- Cambios en la identificación de entrada.
+- Los agentes pueden hacer bookings de importación. Los bookins de Agentes llevan <i>AG-</i> en el código. Los bookins de Clientes llevan <i>CL-</i> en el código.
+- Los agentes pueden hacer bookings de exportación. Los bookins de Agentes llevan <i>AG-</i> en el código. Los bookins de Clientes llevan <i>CL-</i> en el código.
+- En los bookings de exportación de agentes no se da al agente la opción de hacerse el asentamiento.
+**** 09/03/2016 ****
+- Se añaden mecanismos para registrar a los agentes.
+- En las partidas de importación la etiqueta de <b>Viaje :</b> únicamente se muestra si el viaje se ha indicado.
+- Se incremente un poco la velocidad en moverse hacia adelante y hacia atrás en las partidas de import y export.
+- Cambios en el intercamibo de datos con SISCON.
+- Cambios en la generación del PDF del schedule de exportación de un puerto.
+- Cambios en los BLs Part & Rest.
+**** 08/03/2016 ****
+- En las partidas de importación se muestra el campo de mercancía., se muestra el POD, se puestra el destino del transporte aunque no esté generada la "T".
+- Se cambia el orden del slider.
+**** 07/03/2016 ****
+- Posibilidad de poner una primera imagen <i>slider</i> del diferente para la versión en inglés.
+- Cambios en las imágenes del <i>slider</i>.
+- Posibilidad de enviar email de activación de la web. El texto se define en SISCON en el apartado de textos de la web.
+**** 04/03/2016 ****
+- En el menú de configuración se añade la posibilidad de generar los excels con los schedules.
+- En las pantallas de los schedules completos se permite la descarga de un excel con el contenido de los mismos.
+- Se modifica el programa <i>Boby</i> para que tras la exportación de los datos a la web, genere los archivos del exchedule en excel para descargar.
+- Modificaciones en el sistema de generación de shedule en excel.
+- Cambios en formatos del schedele de import y export.
+**** 03/03/2016 ****
+- Cambios en formatos e iconos.
+- Sistema de generación de schedules en excel para importación & exportación. No se actualiza aún esta prestación en la web por ser demasiado lenta.
+- Cambios en la configuración de la web.
+**** 02/03/2016 ****
+- Si se selecciona un puerto de la búsqueda incremental desde los schedules de import o export, se accede automáticamente al schedule del puerto seleccionado.
+- Si se selecciona u puerto por la búsqeda desde los schedules de import o export, cuando se selecciona, se accede automáticamente al schedule del puerto seleccionado.
+- Textos "BUSCAR PAIS" y "BUSCAR PUERTO" en los schedules de import y export.
+- En el <i>Perfil del Cliente</i> puede agregarse el logo del mismo, que aparecerá en el schedule. El logo de la campañía es compartido por todos sus usuarios. Un usuario de TCT puede emular a un usuario de otra compañía para poder cambiar el logo.
+- Cambios en el sistema de configuración del programa.
+- Generación en <b>PDF de los schedules</b> de <b>importación</b> totales y de un puerto.
+- Generación en <b>PDF de los schedules</b> de <b>exportación</b> totales y de un puerto.
+- Arreglo de textos en la pantalla principal.
+**** 01/03/2016 ****
+- Generación en PDF de los schedules de importación totales y de un puerto.
+- Las búsquedas sobre el schedule puede hacerse pulsando <i>intro</i> al terminar de introducir el texto a buscar.
+- Se añade un motor de búsqueda sobre los schedules para Internet Explorer.
+- Cambios en la gestión de errores de la web : no se muestran alertas en la web real.
+**** 29/02/2016 ****
+- No se muestran las partidas FHC de las agrupaciones marcadas como "No mostrar en la web", así como los datos de los barcos de las partidas RO de estas agrupaciones. En SISCON se crea un mecanismo que actualiza este perticular.
+- En el resumende partidas de importación que se muestran en <i>index.php</i> no se muestran las partidas <i>madres</i>.
+- Cambios en el sistema de configuración para adaptación a múltiples instalaciones.
+**** 28/02/2016 ****
+- Cambios en el sistema de configuración para adaptación a múltiples instalaciones.
+**** 27/02/2016 ****
+- Cambios en el motor de búsquedas sobre la página de schedules de import y export.
+- Cambios en el sistema de seguridad de la web.
+**** 26/02/2016 ****
+<h2><b>PUESTA EN MARCHA REAL</b></h2>
+- Adaptaciones al servidor apache2.
+**** 25/02/2016 ****
+- Cuadrar formatos adaptativos de los schedules.
+- Cambios en la integración con SISCON.
+**** 24/02/2016 ****
+- Se modifica el sistema de envío de emails de SISCON para que envíe información a la base de datos de tracking de la web.
+- Cambios en los contadores de booking de importación e importación.
+- Se borran las bases de datos de pruebas de la web.
+<b>- Cambios en la filosofía de actualización de la web. CAMBIOS EN TODA LA WEB</b>
+**** 23/02/2016 ****
+<b>- Cambios en la filosofía de actualización de la web. CAMBIOS EN TODA LA WEB</b>
+- reparación de selección de fechas y sus efectos laterales.
+**** 22/02/2016 ****
+- Cambio de la gestión del booking de importación cuando no viene del schedule.
+- En el tema del registro de incluye al principio el nombre de la persona que se registra.
+- Se muestran los puertos VIA tanto en los schedules de importación como exportación.
+- Cabios de textos en pantalla de bookings de importación.
+- Alineaciones adaptativas para pequeños dispositivos.
+- La fecha del transporte de las partidas de importación debe ser superior a la ETA.
+- La entrega almacén de exportación y el ready date de importación deben ser anteriores al Cut Off.
+- La fecha de entrega del transporte de importación debe ser superior a la ETA.
+- Cambios en formatos de selección de archivos.
+**** 21/02/2016 ****
+- Test de puesta en marcha.
+- Cambios en el sistema de configuración de la página.
+- Cambios en ubucación de ficheros.
+**** 20/02/2016 ****
+- Cambios en el registro de la web.
+- En el proceso de registro se conservan los textos introducidos hasta que se produce el registro o se hace un login.
+- Cambios de seguridad de acceso.
+- Cambios en la firma de los emails enviados desde la web.
+**** 19/02/2016 ****
+- Cambios de formatos en la pantalla de booking de exportación e importación.
+- Se cargan los RO y sus partidas asociadas. En la partida se muestra R.O. en la parte privada de la visualización hasta que se agrupa la partida.
+- Cambios en la pantalla de importación para los FCLs
+- Muchos cambios en el intercambio de datos con SISCON.
+- Arreglo de fecha en rojo en partidas de importación cuando aún no está vencida.
+- Acceso desde los schedules totales a los resúmenes en import y export.
+**** 18/02/2016 ****
+- Multitud de cambios en toda la web.
+- Recuperación de datos de las ofertas sobre bookings import y export.
+- Actualización de aduana de salida en la web. 
+- Cambios en niveles de accesos a partidas.
+- Textos por defecto en schedules modificables desde SISCON.
+- Cambios en la pantalla de booking de exportación. Se añaden varios campos, se cambian formatos, se cambia el email se cambian funcionalidades.
+- Varios cambios en textos de partidas de exportación.
+- Fondo de color en el texto de buscar en el schedule de exportación y texto orientativo.
+- Cambios en la gestión del schedule de import y export.
+**** 17/02/2016 ****
+- Cambios en la visualización de <i>Dobles BLs</i> para clientes, así como eliminación de los emails de copia de BL al agente.
+- Cambios en <i>subject</i> de los emails para incluir el nombre del cliente.
+- Múltiples cambios en pantalla de bookings de import y bookings de export.
+- Múltiples cambios en pantalla de partida de exportacion.
+- Cambios en Gestión de usuarios.
+- Cambios en el entorno de pruebas sobre el servidor principal.
+- Solucionado problema de <i>upload</i> de ficheros en el servidor principal.
+- reconfiguración del servidor definitivo.
+**** 16/02/2016 ****
+- Múltiples cambios en l acceso a directorios.
+- Modificaciones en la ficha de partidas de importación.
+- Se arregla que en algubnos navegadores la ventanas emergentes no era <i>clickables</i>.
+- Se habilita la búsqueda por fechas (las fechas deben estar completas).
+- Cambios en las búsquedas.
+**** 15/02/2016 ****
+- Cambios en la pantalla del sitemap y el fichero para el buscador <i>sitemap.xml</i>.
+- Se incluye uba pantalla con las dimensines de los contenedores de 20", 40" y 40" HC.
+- Cambios en el formato del pié.
+- Link que genera un email a support@tct.es sin utilizar los mecanismos de la página, por si esta no funcionara correctamente.
+- Modifiaciones internas de funcionamiento de las listas de la web.
+- Botones de acceso rápido a opciones auxiliares desde la pantalla principal (enlaces de interés, horario, etc.)
+- Botones de acceso rápido al schedule total de importación y exportación desde la pantalla principal.
+- Los <i>brow</i> de la web mantienen la memoria de su última posición. Es decir, cuando se vuelve desde la edición de una partida, se vuelve sobr la misma página.
+- Modificación en las preferencias de la web para admitir las direcciones customerservice@tct.es, importservice@tct.es y exportservice@tct.es
+**** 11/02/2016 ****
+- En las solicitudes de importación se podrán anexar de uno a <i>n</i> ficheros, de manera similar a la utilizada en los bookings de exportación. Estos documentos se podrán calificar (previa definición de las clasificaciones de la web desde SISCON).
+Estos documentos se anexan al email de la solicitud.
+- No se muestran salidas de exportación cuya ETD tenga mas de dos días, ni en el schedule total ni en el del puerto.
+- Posibilidad de seleccionar T2L y D500 en Instraucciones de depacho de booling de exportación.
+- En partidas con desgloses, la partida actual se marca en negrita
+- Cambios en efectos de pantalla.
+- Cambios en el acceso a fotos desde las partidas de importación.
+- Cambios en el formato en que se muestra el chat de skype.
+- Cambios en textos y formatos de la página principal.
+- Cambios en textos mostrados en la página principal para usuarios registrados pero sin cliente asignado.
+- Los usuarios registrados pero sin código de cliente asignado tienen bloqueada la opción de consultar partidas.
+- Cambios en traducciones en pantalla de bookins de importación.
+- <font color="red">Actualización de librerías de Bootstrap a 3.3.6 : <b>ATENCION *** Alertar de cualquier posible error !!!</b></font>
+- Modificación del color azul básico de Bootstrap por el azul corporativo de TCT.
+- <font color="red">Actualización de librerías a jQuery 2.2.0 y Datatables 1.10.10 : <b>ATENCION *** Alertar de cualquier posible error !!!</b></font>
+- Cuando se edita una modificación del H/BL desde la partida de exportación, son obligatorios los camps de shipper, consignee, notify, POL, Port of discharge, Place of delivery, marcas, unidades, mercancía, peso y volumen.
+- Cuando se edita una modificación del H/BL desde la partida de exportación, si un campo queda en blanco se manda igualmente, se expresa poniendo el texto <i>***VACIO***</i> (o <i>***EMPTY***</i> en inglés).
+- Modificaciones en el sistema de almacenamiento de cambios de modifiaciones de H/BL de exportación.
+- Enlace Horario y festivos en información útil.
+**** 10/02/2016 ****
+- Cuando se edita una modificación del H/BL desde la partida de exportación, el texto modificado se marca con fondo amarillos y letras azules en negrita.
+- Las partidas <i>madre</i> de los desgloses no muestran datos de despacho. En su lugar se muestra la palabra desglose en grande.
+- <i>Tooltip text</i> explicativos para descarga o visualización de documentos.
+- Modificación en el programa de envíos de emails desde SISCON para que se registre el tracking de las partidas de importación que se miestran en la web.
+- Cambios en la estrutura de datos del schedule.
+- Schedule de Importación : Para los puertos marcados en SISCON como mostrar ETD del puerto base, se muestra la ETD del puerto base en la columan de la ETD, incicando el puperto base.
+**** 09/02/2016 ****
+- Cambios en el formato de la pantalla principal.
+- Se registran las peticiones de modificación BL, Solicitar modificaciones de BL, así como los diferentes tipos de certificado.
+- Se muestran las peticiones del cliente sobre la partida en las partidas de exportación sobre la parte derecha del tracking.
+- Se registran las peticiones de desglose, paletizado (+ presupuesto) y posicionado (+ presupuesto).
+- Se muestran las peticiones del cliente sobre la partida en las partidas de importación sobre la parte derecha del tracking. Las fotos se muestran en la parte central del tracking.
+- Formatos en la pantalla de partidas de importación.
+- Arregladas búsquedas en pantalla de gestión de usuarios.
+**** 08/02/2016 ****
+- Se pueden crear Banners en SISCON y mostrarse en la pantalla principal de los usuarios logueados. Los banners pueden mostrarse antes y/o después de las partidas de cliente. Son editables desde SISCON en HTML.
+- Los Banners pueden hacerse para todos los usuarios, para los clientes, para los agentes, para un cliente y para un agente.
+- Los banners, independientemente del destinatario, pueden personalizarse de manera que muestre el nombre del usuarios logueado (donde se ponga <b>%usuario%</b>), o el nombre del cliente a que pertenezca (donde se ponga <b>%cliente%</b>). Para los usuarios de TCT se muestra 'TCT' o el nombre del cliente que se tenga seleccionado en ese momento.
+- Se cambia la forma en que se intercambian los campos tipo <i>memo</i> con SISCON.
+- Varios cambios de formatos.
+- Modificaciones previas para poder utilizar mas formatos en las tablas.
+- Cambios en el sistema de búsquedas sobre bases de datos.
+- El acceso a los schedules totales puede hacerse sin estar logueado.
+**** 05/02/2016 ****
+- Cambios en plantilla para la solicitud de modificaciones del H/BL.
+- Grabación de los cambios solicitados en una nueva tabla.
+- Se envía el email con los cambios solicitados a exportación con copia al cliente.
+- Otros cambios de formatos.
+**** 04/02/2016 ****
+- Cambios en la búsquedas de la web.
+- Corrección de error en la pantalla de partidas de importación (se mostraba el núnmero de bultos en lugar del peso).
+- Se define una plantilla para la solicitud de modificaciones del H/BL. Dicha plantilla se utilizará en la solicitud de modificación de BLs.
+- Otros cambios de formatos.
+- Cambios en el intercambio de datos con SISCON.
+**** 03/02/2016 ****
+- Cambios en el formato de la página de partidas de exportación.
+- El admítase se toma del <i>Almacén anterior</i> en caso de <b>Cocargas</b>. El almacén que se muestra en caso de cocargas es el que se detemine como almacén a mostrar en la agrupación, a no ser que en la partida se seleccione otro almacén, en cuyo case se mostrará ese.
+- El muelle únicamente se muestra en las instrucciones de despacho de la partida de exportación en caso de que esta sea FCL.
+- En las partidas de exportación el número de contenedor solo se mostrará si la partida está confirmada o es FCL.
+- Correción de algunos errores en la visualización de partidas de exportación por datos incompletos.
+- Efectos en pantalla principal, tracking, listado de partidas, links de interés y otras partes del programa, de manea similar al pié.
+- Se mostrará la fecha límite de almacenajes en rojo así como el límite de permanencia si la partida no ha salido i no se trata de la partida <i>madre</i> de un desglose, siempre i cuando existe límite de almacenaje y permanencia. Además, el texto se moverá al cargar la página para llamar la atención.
+- Se puede buscar por columa en las partidas de importación y exportación. Falta afinar el formato de las búsquedas tipo fecha.
+- Se gestiona el status de las partidas de exportación.
+- En las partidas de exportación se muestra el estado de la partida al lado del código.
+**** 02/02/2016 ****
+- En la edición del Booking de importación se muestra el nombre del barco.
+- En la edición del Booking de exportación se muestra el nombre del barco.
+- Se añade una página para el cálculo de distàncias
+- En la pantalla de contacto se incluye el link del Chat de Skype.
+- Modificaciones en el mapa de sitio y el generador del sitemap.xml.
+- Revisón sobre Opera. Revisión sobre Safari. Revisión sobre explorer.
+- Cambios en el formato de la página de partidas de exportación.
+- Cambios en el formato de la página principal para usuarios logueados.
+- Cambios en el formato en que se presentan las noticias en la página principal y en la página de noticias.
+- Debajo del icono de skype se ha creado un enlace a una explicación de cómo funciona el chat a través de Skype.
+- El icono de la llamada a skype no relentiza la carga de la página.
+- Cambios en la búsqueda sobre el schedule de exportación.
+- Sistema de introducción de fechas independiente del navegador utilizado.
+- Cambios en el sistema de login.
+- Cambios en formatos de las pantallas de bookings de importación y exportación.
+**** 01/02/2016 ****
+- Se cambia el texto "Aduana de Ubicación" y se añade el texto y la infomración de "Aduana de Salida" en los datos de despacho de la partida de exportación. Se modifica SISCON para gestionar este dato.
+- Cambios en la visualización del CR.
+- Pueden solicitarse certificados desde la pantalla de partidas de exportación. Existen textos de la web para definir. El email se envía a la dirección de email de exportación definida en la web.
+- En SISCON se añade un proceso que da el OK de cliente de todos los H/BLs de una agrupación y seguidamente actualiza de manera automática esta información sobre la web.
+- Cuando la partida esté entrada en el almacén ya no aparecerá la posibilidad de descargarse el admítase.
+- El BL podrá confirmarse hasta el día siguiente de la salida del barco, excepto en los casos en que se hay confirmado proviamente por el cliente o per el nuevo proceso de confirmación de la agrupación entera.
+- Cambios en el formato con que se indica el H/BL para descarga y visualización para adecuarlo al nuevo formato del resto de la web.
+- Otros cambios internos en la pantalla de partidas de exportación.
+- Otros cambios internos en la pantalla de partidas de importación.
+- Se modifica el formato en que se muestran las noticias para el los párrafor HTML se generen automáicamente a partide de los retornos de carro de SISCON.
+- Se modifica la manera en que se muestran las noticias, de manera que si el texto es mas pequeño que 1 Kbyte, se muestre la noticia centrada a mitad del tamaño de la página.
+- Los títulos de una noticia retornan sobre la pantalla de noticias.
+- Los apartados privados de TCT en pantalla públicas se mostrarán con un símbolo que es medio ojo cerrado y medio ojo abierto.
+- Para usuarios de TCT, desde la consulta de las partidas podrá accederse a consultar las agrupaciones, tanto para import como para export.
+- Se crea una pantalla de preferencias don de puede indicarse nuestro horario y posibles festivos, que es mostrado al final de la pantalla "Quienes somos"
+**** 29/01/2016 ****
+- Arreglado moverse hacia adelante y hacia atrás en la consulta de partidas de importación y exportación.
+- En partidas de importación no se muestra el BL si no hay número de BL. Unicamente se pide confirmación del BL o solicitud de modificaciones si no está marcado el OK del cliente.
+- Cambios en el registro de los bookings de exportación.
+- En los bookings de exportación se puede determinar si el BL se desea original o express.
+- Datos de despacho en las partidas de importación, incluido Felte y T3, así como la posibilidad de descargar o consultar la cuenta corriente de la agrupación.
+- Exender mecanismos de seguridad en la descarga o visualización de documentos.
+**** 28/01/2016 ****
+- Si hay fotos vinculadas a la partida de importación, se mostrarán iconos correspondientes a las fotos para poderlas consultar, tanto si se han mandado al cliente como sino, siempre que esté calificadas como "FOTOS".
+- Se muestra la ETD y la salida de almacén de manera automática en el tracking de import.
+- En las partidas de importación, si existe la fecha de previsión de vaciado pero aún no se ha vaciado, en la partida se mostrará como fecha de vaciado la previsión indicando al lado " - Prevista".
+- Cambios la consulta de los schwedules totales : cuando no hay viaje se muestra un guión.
+- Cambios en formatos de la pantalla de partidas de importación. Entre otros, se muestra el POL i el POR si existe.
+- Cambios en el sistema de exportación de datos de SISCON a la web.
+- Cambios en el sistema de generación del schedule en SISCON.
+**** 27/01/2016 ****
+- Se modifica el sistema de carga de las partidas de exportación. Falta definir su integración.
+- En la pantalla de consulta de partidas de importación, puede solicitarse el desglose, paletizado (con posibilidad de presupuesto) y posicionado (con posibilidad de presupuesto). En todos los casos se realiza la petición vía email. Los textos por defecto sde los emails deben definirse en SISCON. Tras enviar el mail se avisar al usuario, al que se envía una copia.
+- Se modifica el sistema de carga y búsquedas de las partidas de importación para hacerlas mas ágiles. Esto penaliza las cargas pero da mayor velocidad a la web.
+- En la búsqueda de partidas de inportacion se muestra : BL, CNTR, ORIGEN (para TCT muestra un "*" a la derecha si el origen es un POR), ETD, ETA, BULTOS, KGS, Previsión de Vaciado, fecha de vaciado y número de partida.
+- En dobles H/BLs de exportación, se mostrará el MASTER cuando el usuario sea un agente, y en el resto de casos (incluidos usuarios de TCT), se mostrará el H/BL.
+- En partidas de importación, si se han calificado los documentos H/BL, Factura Comercial o Packing list, se mostrará y se permitirán las opciones de descargar o consultar.
+- Cambios en el sistema interno de mostrar y descargar documentos.
+- Cambios en la gestión interna de las partidas de importación.
+- En la partida de importación se muestra el número de contenedor.
+**** 26/01/2016 ****
+<b>En consulta de partidas de importación :</b>
+- Varias traducciones de textos.
+- Se detalla si el BL es Express o Surrender.
+- Si se tiene la referencia del cliente se mostrará.
+- Si existe el HS Code se mostrará.
+- Se muestra el incoterm.
+- Si la partida se ha vaciado, se mostrará la fecha de vaciado.
+- Se muestra la fecha de salida del almacén si ha salido.
+- Si hay validez de los almacenajes, se muestra la fecha de finalización de la validez.
+- Si se trata de una partida con desglose, se mostrará cual es la partida principal y cuales son las partidas de desglose, pudiendo acceder desde cualquier partida a cualquiera de las otras.
+- Si se ha vaciado la partida, y en el depot en que está partida se indican unos días de permanencia, se mostrará el plazo de permanencia.
+- Se ordenan las partidas por ETA.
+- Se buscar los documentos asociados a la partida, localizando BL, Factura Comercial y Packing List, si se calificaron.
+<b>En otros apartados :</b>
+- Varias traducciones de textos.
+- En los Bookings de exportación puede determinarse si el despacho lo hace el cliente o TCT.
+- Se añade fecha de recogida en el booking de export.
+- Se añade la fecha de entrega como datos de la entrega en booking de importación.
+- En booking de importación puede solicitarse el desglose. Al hacerlo se visualizará un campo de notas donde indicar los detalles.
+- Se incluyen los nuevos cambios en el email de notificación del booking.
+- Cambios en el envío de emails de bookings. Cambios en formatos de fechas.
+**** 25/01/2016 ****
+- Cambios durante la revisión de la web.
+- Cambios en el sistema de búsqueda sibre el schedule total.
+**** 22/01/2016 ****
+- Cambios en el orden de las columnas de Schedules de import y export.
+- Se arregla el error que no se mostraban los viajes de los puertos de transbordo en importación.
+- Se agrega el campo HS Code para los bookins de import y export, se guarda el contenido y se envía por email como el resto.
+- Se pone un dibujo de un camión al lado del "check" de transporte de el booking de import.
+- Se pone mas grande el texto "Ver TODO el schedule" en ambos schedules.
+- Cambios en el registro de actividad.
+- En enlace de "Breaking News" apunta a "Noticias" hasta que se desarrolle la opción.
+- Texto "Cómo funciona ?" debajo del chat. Falta la explicación.
+- En fecha igual o superior al <i>Cut Off</i> se muestra un candado en el lugar que ocuparía la fecha de <i>Cut Off</i>. En importación se impide realizar el booking. En exportación el mismo día del <i>Cut Off</i> se permite realizar el booking aunque se muestre el candado. Se sigue este criterio en los schedules totales y los schedules por puerto.
+- Los títulos de las tablas se pasan a mayúsculas.
+- Los avisos <i>flash</i> del título (p.e. "Último aviso para Casablanca !" se ponen en negrita.
+**** 21/01/2016 ****
+- Cambios en formatos y colores.
+- Modificaciones en las BBDD para importar el schedule de SISCON. Modificación en SISCON en la generación del Schedule. 
+**** 20/01/2016 ****
+- Se muestra el campo de <b>ETD</b> en los schedules de import i <b>ETA</b> en los schedules de export. NOTA : por el momento no tiene contenido hasta que se realicen las modificaciones en SISCON para genmerar esta información.
+- Textos del menú superior en negrita.
+- Color negro en la letra en introducción de formularios.
+- Posibilidad de <b>cambiar de schedule de importación a exportación</b> y biceversa.
+- Ver resumen de cambios en la web para usuarios registrados.
+- Se mostrará la empresa seleccionada para los usuarios registrados.
+- TCT SL como opción del menú superior.
+- Cuando se introducen las medidas en un booking de <b>importación</b>, aparece un botón que permite 'Validar CBM' y reescribe el valor del CBM calculado sobre el campo de CBM.
+- Cuando se introducen las medidas en un booking de <b>exportación</b>, aparece un botón que permite 'Validar CBM' y reescribe el valor del CBM calculado sobre el campo de CBM.
+- En los <b>bookings de importación</b> se cambia el texto <b>"Entrega almacén" por "Ready date"</b>.
+

